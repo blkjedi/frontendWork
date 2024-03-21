@@ -1,0 +1,74 @@
+/* css stuff */
+
+a {
+  color: rgb(255, 220, 174);
+  font-size: 24px;
+  padding: 10px solid purple;
+}
+a:hover{
+    font-size: 32px;
+    color: blueviolet;
+}
+
+main {
+  background-color: rgb(124, 99, 216);
+}
+
+body {
+  background-color: rgb(22, 8, 99);
+  color: rgb(241, 202, 202);
+  font-size: 1.1em;
+}
+h1 {
+  color: coral;
+}
+#intro {
+  font-size: 1.3em;
+}
+.colorful {
+  color: orange;
+}
+
+ section { 
+  border: 5px solid rgb(253, 139, 9);
+  padding: 10px;
+  background-color: #4f2396;
+  width: 150px;
+}
+/*section  p {
+   color: rgb(12, 141, 158);  
+}*/
+/*section > p {
+   color: rgb(12, 141, 158);  
+}*/
+/* section + p { 
+color: rgb(18, 170, 190);
+}*/
+section ~ p {
+color: rgb(64, 137, 146);
+}
+
+.myItems {
+    background-color: rgb(93, 206, 206);
+    padding: 15px;
+}
+
+li:nth-child(5) {
+    color: rgb(230, 20, 20);
+}
+
+#bio {
+    background-color: aquamarine;
+    padding: 20px;
+}
+#bio::first-line{
+    color: black;
+
+}
+
+li{
+    list-style: none;
+}
+li::before{
+    content: '';
+}
