@@ -7,6 +7,46 @@
     <title>Document</title>
 </head>
 <body>
+
+    <ul>
+        <li><a class="active" href="../index.html">Home</a></li>
+        <li><a href="./register.html">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float: right"><a href="./about.html">About</a></li>
+        <li style="float: right">
+          <a href="./login.html">
+            <img
+              src="../images/icons8-login-50.png"
+              alt="Login Icon"
+              class="login-user"
+              width="15px"
+            />Log In
+          </a>
+        </li>
+      </ul>
     <h1>Register</h1>
+
+    <form action="#">
+        <label for="FirstName">First Name</label>
+        <input type="text" name="FirstName" id="FirstName" required><br>
+        <label for="LastName">Last Name</label>
+        <input type="text" name="LastName" id="LastName" required><br>
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="Email" required><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br>
+        <label for="password">Confirm Password</label>
+        <input type="password" name="password" id="password"><br>
+        <label>Home planet:</label>
+        <select name="planets">
+          <option value="mars">Mars</option>
+          <option value="earth">Earth</option>
+          <option value="tatooine" selected>Tatooine</option>
+        </select>
+<br>
+<br>
+        <input type="submit">
+       
+    </form>
 </body>
 </html>
