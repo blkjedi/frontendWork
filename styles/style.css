@@ -4,6 +4,8 @@ a {
   color: rgb(255, 220, 174);
   font-size: 24px;
   padding: 10px solid purple;
+display: inline-flex;
+
 }
 a:hover{
     font-size: 32px;
@@ -34,6 +36,9 @@ h1 {
   padding: 10px;
   background-color: #4f2396;
   width: 150px;
+  display: inline-block;
+  margin-left: 10px;
+  box-shadow: 20px 20px 29px rgb(255, 102, 0);
 }
 /*section  p {
    color: rgb(12, 141, 158);  
@@ -71,4 +76,9 @@ li{
 }
 li::before{
     content: '';
+}
+
+main{
+  margin-top: 10px;
+  box-shadow: -20px 20px 20px rgb(202, 86, 8);
 }

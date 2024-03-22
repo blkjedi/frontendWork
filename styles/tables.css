@@ -65,8 +65,8 @@ table {
     
         border: 5px inset #698af8;
        padding: 14px; 
-       height: 25vmax;
-       width: 30vmax;
+       
+       width: 30vmin;
        background-color: rgb(100, 223, 141);
        
  }
@@ -79,4 +79,5 @@ table {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+    display: flex;
   }
